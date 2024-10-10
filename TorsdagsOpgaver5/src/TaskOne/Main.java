@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<Customer> customers = new ArrayList<>();
-        Customer cus1 = new Customer("Kaj", "Kagemand", "KageKaj");
-        customers.add(cus1);
+        customers.add(new Customer("Kaj", "Kagemand", "KageKaj"));
+
         Customer cus2 = new Customer("Bob", "Bobber", "Bobsen");
         customers.add(cus2);
 
